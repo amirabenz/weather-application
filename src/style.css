@@ -28,11 +28,27 @@ strong {
   font-weight: 700;
   color: rgb(255, 197, 37);
 }
-a {
+footer {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#source-code {
+  text-decoration: none;
+  color: darkblue;
+}
+#source-code:hover {
+  color: rgb(100, 161, 197);
+}
+
+#celsius,
+#fahrenheit {
   text-decoration: none;
   color: white;
 }
-a:hover {
+#celsius:hover,
+#fahrenheit:hover {
   color: white;
 }
 #search-button {
