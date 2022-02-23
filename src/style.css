@@ -80,6 +80,8 @@ footer {
   padding: 50px 30px;
   border-radius: 30px;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  padding-bottom: 0;
 }
 #here-now {
   margin: 5px;
