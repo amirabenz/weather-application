@@ -1,0 +1,171 @@
+body {
+  max-width: 900px;
+  min-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+form {
+  font-family: "Dosis", sans-serif;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 0 20px 20px;
+  border-radius: 10px;
+  margin-top: 150px;
+}
+input {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 5px;
+  position: relative;
+  left: -7px;
+}
+i {
+  color: white;
+  font-size: 15px;
+}
+strong {
+  font-weight: 700;
+  color: rgb(255, 197, 37);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+#search-button {
+  background-color: transparent;
+  border: none;
+  padding: 1px 4px;
+  border-radius: 15px;
+  position: relative;
+  left: -7px;
+}
+.weather {
+  width: 260px;
+}
+.pin {
+  position: relative;
+  width: 15px;
+  top: -4.5px;
+  left: -5px;
+}
+
+.container {
+  background: linear-gradient(
+    15deg,
+    rgb(19, 84, 122) 0%,
+    rgb(128, 208, 199) 100%
+  );
+  max-width: 500px;
+
+  padding: 50px 30px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+#here-now {
+  margin: 5px;
+  font-size: 12px;
+  position: relative;
+  left: 15px;
+}
+.current-location {
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+}
+.actual-date {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 15px;
+  color: white;
+}
+
+.current-temperature {
+  font-family: "Dosis", sans-serif;
+  font-size: 100px;
+  font-weight: 100;
+  color: white;
+  position: relative;
+  top: -15px;
+  left: 10px;
+}
+
+.degree {
+  font-size: 22px;
+  font-weight: 100;
+}
+.change {
+  color: white;
+  font-weight: 100;
+
+  font-size: 14px;
+}
+.week {
+  font-family: "Dosis", sans-serif;
+  font-size: 64px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 54px;
+  margin-top: 70px;
+}
+.days {
+  font-family: "Dosis", sans-serif;
+  color: rgb(33, 59, 66);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.emojis {
+  font-size: 30px;
+  text-align: center;
+}
+.temperatures {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+.first {
+  background-origin: border-box;
+  background-size: 500px;
+  background-attachment: scroll;
+  background-image: linear-gradient(
+      15deg,
+      rgba(53, 123, 146, 1) 10%,
+      rgba(103, 179, 180, 0.2) 90%
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/338/original/city.jpg?1645032028");
+
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+  margin-top: -30px;
+}
+.second {
+  background: linear-gradient(
+    to top,
+    rgba(9, 32, 63, 0.3) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.third {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+}
